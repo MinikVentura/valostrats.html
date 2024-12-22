@@ -25,7 +25,7 @@ document.getElementById('loginForm').addEventListener('submit', function (e) {
     const username = document.getElementById('nombre').value;
     const password = document.getElementById('contrasena').value;
 
-    if (username === 'vasco' && password === 'yumaputero') {
+    if (username === 'minik' && password === 'gnx') {
         // Crear el contenido de la página "home.html"
         const homeContent = `
             <!DOCTYPE html>
