@@ -1,0 +1,64 @@
+/* Estilos generales */
+body {
+    background-color: white;
+    color: white; /* Asegura que el texto sea visible */
+    font-family: Arial, sans-serif;
+    text-align: center; /* Centra el contenido en la página */
+    margin: 0;
+    padding: 0;
+}
+
+/* Contenedor principal */
+.formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh; /* Asegura que el contenido ocupe toda la altura de la ventana */
+}
+
+/* Estilo del logo */
+img {
+    max-width: 150px; /* Ajusta el tamaño del logo */
+    margin-bottom: 20px; /* Espacio entre el logo y el formulario */
+}
+
+/* Estilo del formulario */
+form {
+    padding: 20px;
+    border: 1px solid white;
+    max-width: 300px;
+    width: 100%;
+    background-color: #222; /* Fondo oscuro para el formulario */
+    border-radius: 10px;
+}
+
+/* Estilo de las etiquetas */
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* Estilo de los campos de entrada */
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 5px;
+}
+
+/* Estilo del botón */
+button {
+    background-color: #555;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Estilo del botón al pasar el ratón */
+button:hover {
+    background-color: #777;
+}
