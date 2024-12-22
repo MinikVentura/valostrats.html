@@ -71,3 +71,26 @@ button:hover {
 .registrar{
     color: blue;
 }
+
+/* Posiciona el contenedor de redes sociales al final de la página */
+.rrss {
+    position: fixed; /* Fijado al viewport */
+    bottom: 0; /* Pegado al fondo */
+    width: 100%; /* Ocupa todo el ancho */
+    text-align: center; /* Centra el contenido horizontalmente */
+    background-color: #f8f9fa; /* Fondo claro opcional */
+    padding: 10px 0; /* Espaciado arriba y abajo */
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1); /* Sombra opcional */
+}
+
+/* Estilo de las imágenes */
+.rrss img {
+    height: 300px; /* Ajusta el tamaño de las imágenes */
+    margin: 0 100px; /* Espaciado entre imágenes */
+    vertical-align: middle; /* Alinea verticalmente */
+}
+
+.rrss a {
+    display: inline-block; /* Cada enlace es un bloque en línea */
+}
+
