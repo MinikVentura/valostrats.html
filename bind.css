@@ -1,0 +1,25 @@
+body {
+    background-color: black;
+    color: white; /* Asegura que el texto sea visible */
+    font-family: Arial, sans-serif;
+    text-align: center; /* Centra el contenido en la página */
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+}
+
+.center-image {
+    display: block;
+    margin: 0 auto;
+}
+
+.Default.Long {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Ajusta la altura si es necesario */
+}
