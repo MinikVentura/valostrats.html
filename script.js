@@ -23,6 +23,10 @@ document.addEventListener("DOMContentLoaded", () => {
         else if (nombre === "paulo" && contrasena === "papa") {
             // Redirect to /home
             window.location.href = "home.html";
+        }
+        else if (nombre === "lasym" && contrasena === "gnx") {
+            // Redirect to /home
+            window.location.href = "home.html";
         }   else {
             alert("Invalid credentials. Please try again.");
         }
