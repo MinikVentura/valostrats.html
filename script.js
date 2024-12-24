@@ -15,9 +15,14 @@ document.addEventListener("DOMContentLoaded", () => {
         if (nombre === "admin" && contrasena === "admin") {
             // Redirect to /home
             window.location.href = "home.html";
-        } else {
+        }
+        else if (nombre === "minik" && contrasena === "book") {
+            // Redirect to /home
+            window.location.href = "home.html";
+        }  else {
             alert("Invalid credentials. Please try again.");
         }
+        
     });
 
     // Interactive 'Forgot Password' text
