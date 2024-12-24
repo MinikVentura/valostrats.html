@@ -43,7 +43,6 @@ main {
 img {
     display: block;
     margin: 0 auto;
-    max-width: 100%; /* Se adapta al contenedor */
     border: 2px solid #444;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
