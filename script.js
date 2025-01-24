@@ -18,7 +18,12 @@ document.addEventListener("DOMContentLoaded", () => {
             case "minik_book":
             case "yuma_gnx":
             case "paulo_papa":
-            case "lasym_gnx":
+            case "lasym_cap":
+            case "lartike_yoru":
+            case "visior_sova":
+            case "darko_ger":
+            case "iki_arigato":
+            case "udz_arg":        
                 // Redirect to /home
                 window.location.href = "home.html";
                 break;
