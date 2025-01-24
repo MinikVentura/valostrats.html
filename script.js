@@ -12,24 +12,21 @@ document.addEventListener("DOMContentLoaded", () => {
         const contrasena = contrasenaInput.value.trim();
 
         // Check if credentials are correct
-        if (nombre === "minik" && contrasena === "book") {
-            // Redirect to /home
-            window.location.href = "home.html";
-        }
-        else if (nombre === "yuma" && contrasena === "gnx") {
-            // Redirect to /home
-            window.location.href = "home.html";
-        }
-        else if (nombre === "paulo" && contrasena === "papa") {
-            // Redirect to /home
-            window.location.href = "home.html";
-        }
-        else if (nombre === "lasym" && contrasena === "gnx") {
-            // Redirect to /home
-            window.location.href = "home.html";
-        }   else {
-            alert("Invalid credentials. Please try again.");
-        }
+        const credentials = `${nombre}_${contrasena}`;
+
+        switch (credentials) {
+            case "minik_book":
+            case "yuma_gnx":
+            case "paulo_papa":
+            case "lasym_gnx":
+                // Redirect to /home
+                window.location.href = "home.html";
+                break;
+            default:
+                alert("Invalid credentials. Please try again.");
+                break;
+            }
+
         
     });
 
